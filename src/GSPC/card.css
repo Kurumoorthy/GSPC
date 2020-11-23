@@ -1,0 +1,25 @@
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.cards-container li {
+    width: 90%;
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+.cards-container li:first-child{
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.cards-container .card{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #EDEDED;
+    border-radius: 3px;
+    background: white;
+    padding: 30px;
+    position: relative;
+    line-height: inherit;
+}

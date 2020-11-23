@@ -1,0 +1,58 @@
+
+
+#app {
+    border-radius: 3px;
+    border: 1px solid #e5e5e5;
+    margin: 15px;
+    background-color: white;
+  }
+
+  #root {
+      width: 80%;
+      margin: 0 auto;
+  }
+
+  ul.inline {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #fff;
+  }
+  
+  .tab {
+    min-height:50px;
+    font-family: sans-serif;
+    color: #444;
+  }
+  ul.inline li {
+    display: inline-block;
+    margin-left: 0;
+    padding: 10px;
+    border-bottom: 2px solid #eee;
+    transition: all 0.5s;
+    font-family: sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    color: #aaa;
+  }
+  ul.inline .selected {
+      border-bottom: 2px solid #337ab7;
+      color: #444;
+  }
+  ul.inline {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+  }
+  .ReactTable .rt-tr {  
+    padding: 5px 0;
+  }
+
+  .ReactTable .rt-th, .rt-td {
+      padding: 8px !important;
+  }
